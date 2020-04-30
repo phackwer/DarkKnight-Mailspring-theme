@@ -1,0 +1,12 @@
+{
+  "name": "DarkKnight-Mailspring",
+  "title": "DarkKnight-Mailspring",
+  "displayName": "DarkKnight-Mailspring",
+  "theme": "ui",
+  "version": "1.0.0-rc2",
+  "description": "A MailSpring Theme inspired by the N1 Level Up theme.",
+  "license": "GPL-3.0",
+  "engines": {
+    "mailspring": "*"
+  }
+}
