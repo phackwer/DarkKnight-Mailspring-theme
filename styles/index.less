@@ -159,7 +159,8 @@ a, a:hover, a:active, a:visited {
 }
 
 #message-list .message-subject,
-.list-item list-tabular-item focused,
+.list-container .list-item.focused,
+.list-item .list-tabular-item .focused,
 .sidebar-section visible,
 .sidebar-contact-card,
 .sidebar-contact-card .btn,
@@ -177,4 +178,10 @@ a, a:hover, a:active, a:visited {
 #message-list .message-icons-wrap img,
 .outline-view .item img.content-mask {
     background-color: rgba(230, 230, 230, 0.8);
+}
+
+.outline-view .item.selected img.content-mask,
+.outline-view .item .item-count-box.alt-count,
+.btn-toolbar.mode-toggle.mode-false img.content-mask {
+    background-color: #ff7900;
 }
