@@ -1,9 +1,9 @@
 {
-  "name": "TheDarkKnight",
-  "title": "TheDarkKnight",
-  "displayName": "TheDarkKnight",
+  "name": "T4",
+  "title": "T4",
+  "displayName": "T4",
   "theme": "ui",
-  "version": "1.0.0-rc3",
+  "version": "4.0.0-rc4",
   "description": "Something with a usefull UI",
   "license": "GPL-3.0",
   "engines": {
