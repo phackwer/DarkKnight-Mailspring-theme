@@ -1,9 +1,9 @@
 {
-  "name": "T4",
-  "title": "T4",
-  "displayName": "T4",
+  "name": "DarkKight",
+  "title": "DarkKight",
+  "displayName": "DarkKight",
   "theme": "ui",
-  "version": "4.0.0-rc4",
+  "version": "1.0.0-rc1",
   "description": "Something with a usefull UI",
   "license": "GPL-3.0",
   "engines": {
