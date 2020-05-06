@@ -120,10 +120,6 @@ img.content-light {
   background-color: #fff;
 }
 
-.list-container .list-item {
-  color: #dedede;
-}
-
 .list-container .list-item.focused {
   background: rgba(157, 157, 157, 0.25);
 }
@@ -178,8 +174,39 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
 .outline-view .heading,
 .sidebar-participant-picker select,
 .sidebar-participant-picker option,
-.outline-view .item .name {
+.outline-view .item .name,
+.list-container .list-item,
+.selected-items-stack .selected-items-stack-content .count-info .count,
+.selected-items-stack .selected-items-stack-content .count-info .count-message,
+.selected-items-stack .selected-items-stack-content .count-info .clear.btn,
+.activity-dashboard,
+.activity-dashboard .section-divider div,
+.activity-dashboard .header .timespan-selector .timespan-text,
+.activity-dashboard .header .accounts, a
+.activity-dashboard .metric-graph .layer.text-overlay .text,
+.activity-dashboard .metric-stat .layer.text-overlay .text,
+.activity-dashboard .metric-histogram .legend,
+.activity-dashboard .metric-container .footer,
+.activity-dashboard .empty-note,
+.activity-dashboard .btn,
+.thread-list-empty-folder-bar .btn,
+.thread-list .participants.no-recipients,
+.empty-state .inbox-zero-animation .animation-wrapper .message,
+.empty-state .perspective-empty-state .message,
+.draft-list .participants.no-recipients {
   color: #dedede !important;
+}
+
+.thread-list-empty-folder-bar .btn:hover {
+  color: #000;
+}
+
+.activity-dashboard .usage-note,
+.thread-list-empty-folder-bar {
+  color: #8398ea;
+  background-color: #101430;
+  border-bottom: none;
+  border-left: 4px solid #2a295a;
 }
 
 #message-list .message-icons-wrap img,
@@ -220,10 +247,4 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
 
 .selected-items-stack .selected-items-stack-content .stack .card svg {
   stroke: #dedede
-}
-
-.selected-items-stack .selected-items-stack-content .count-info .count,
-.selected-items-stack .selected-items-stack-content .count-info .count-message,
-.selected-items-stack .selected-items-stack-content .count-info .clear.btn {
- color: #dedede
 }
