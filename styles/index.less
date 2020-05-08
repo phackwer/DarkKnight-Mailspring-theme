@@ -202,12 +202,26 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
 .composer-participant-field .tokenizing-field-input,
 .tokenizing-field .tokenizing-field-input,
 .tokenizing-field .tokenizing-field-label,
-.tokenizing-field .token {
+.tokenizing-field .token,
+.thread-search-bar .tokenizing-contenteditable .layer-tokens,
+.suggestions,
+.suggestion,
+.fixed-popover-container .fixed-popover,
+.fixed-popover-container .fixed-popover .btn,
+.RichEditor-toolbar button,
+.RichEditor-toolbar select {
   color: #dedede !important;
 }
 
-.RichEditor-toolbar .inner {
-  background: #FFF;
+.RichEditor-toolbar .color-picker {
+
+}
+
+.composer-header,
+.composer-inner-wrap .composer-centered,
+.RichEditor-toolbar .inner,
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap .RichEditor-toolbar .inner {
+  background-color: #000000;
 }
 
 .thread-list-empty-folder-bar .btn:hover {
@@ -227,6 +241,7 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
   background-color: rgba(230, 230, 230, 0.8);
 }
 
+.composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask,
 .outline-view .item.selected img.content-mask,
 .outline-view .item .item-count-box.alt-count,
 .btn-toolbar.mode-toggle.mode-false img.content-mask {
