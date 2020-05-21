@@ -116,9 +116,14 @@ img.content-light {
 .button-dropdown .primary-item img.content-mask,
 .button-dropdown .only-item img.content-mask,
 .button-dropdown .secondary-items,
+.button-dropdown .secondary-items:hover img.content-mask,
 .button-dropdown .secondary-picker img.content-mask,
 #message-list .message-item-area .iframe-container {
   background-color: #FFFFFF;
+}
+
+.button-dropdown .secondary-items:hover {
+  color: #FFFFFF;
 }
 
 .list-container .list-item.focused {
@@ -222,7 +227,7 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
 .preferences-wrap input
 .preferences-wrap select,
 .container-identity .identity-content-box,
-.container-identity .identity-content-box{
+.container-identity .identity-content-box {
   color: #dedede !important;
 }
 
@@ -301,4 +306,12 @@ body.is-blurred .thread-list.handler-split .list-item.selected,
 
 .selected-items-stack .selected-items-stack-content .stack .card svg {
   stroke: #dedede
+}
+
+.activity-dashboard .metric-stat.read-receipts img {
+  background-color: rgb(255, 94, 0)
+}
+
+.activity-dashboard .metric-stat.link-tracking img {
+  background-color: rgb(51, 212, 63)
 }
