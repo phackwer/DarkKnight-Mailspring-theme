@@ -3,7 +3,7 @@
   "title": "DarkKnight",
   "displayName": "DarkKnight",
   "theme": "ui",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc2",
   "description": "Something with a usefull UI",
   "license": "GPL-3.0",
   "engines": {
