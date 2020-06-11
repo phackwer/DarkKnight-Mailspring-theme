@@ -3,8 +3,8 @@
   "title": "DarkKnight",
   "displayName": "DarkKnight",
   "theme": "ui",
-  "version": "1.0.0-rc4",
-  "description": "Something with a usefull UI",
+  "version": "1.0.0-rc1",
+  "description": "Finally a real dark UI",
   "license": "GPL-3.0",
   "engines": {
     "mailspring": "*"
