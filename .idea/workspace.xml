@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/ui-variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ui-variables.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,8 @@
       <workItem from="1588626962001" duration="156000" />
       <workItem from="1588684052854" duration="13000" />
       <workItem from="1588684651534" duration="7000" />
-      <workItem from="1619606394973" duration="704000" />
+      <workItem from="1619606394973" duration="761000" />
+      <workItem from="1619693012201" duration="233000" />
     </task>
     <servers />
   </component>
